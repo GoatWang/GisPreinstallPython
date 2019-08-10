@@ -6,5 +6,4 @@
 1. [geopandas](https://www.lfd.uci.edu/~gohlke/pythonlibs/#geopandas): [Downlaod](https://download.lfd.uci.edu/pythonlibs/t4jqbe6o/geopandas-0.5.0-py2.py3-none-any.whl)
 
 
-
 <!-- 1. SplittedImage: ```pip install -U --index-url http://192.168.0.167:28181/simple --trusted-host 192.168.0.167 SplittedImage``` -->
