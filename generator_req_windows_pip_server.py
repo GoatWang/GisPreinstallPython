@@ -20,5 +20,5 @@ write_str += "--index-url http://rd.thinktronltd.com:28181/simple --trusted-host
 for pn in package_names:
     write_str += pn + "\n"
 
-with open("requirements_new.txt", 'w' , encoding="utf8") as f:
+with open("requirements_windows.txt", 'w' , encoding="utf8") as f:
     f.write(write_str)
