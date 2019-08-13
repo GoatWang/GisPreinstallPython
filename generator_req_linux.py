@@ -5,6 +5,7 @@ write_str = ""
 cmd = 'gdalinfo --version | sed "s/GDAL //" | sed "s/, released [0-9][0-9][0-9][0-9]\/[0-9][0-9]\/[0-9][0-9]//"'
 process = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 gdal_version, err = process.communicate()
+gdal_version = gdal_version.decode()
 
 with open("requirements.txt", 'r' , encoding="utf8") as f:
     for line in f:
